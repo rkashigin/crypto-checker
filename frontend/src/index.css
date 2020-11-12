@@ -1,0 +1,27 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+input.white-input {
+  border-bottom: 1px solid white !important;
+  box-shadow: 0 1px 0 0 white !important;
+}
+
+input.white-input + label {
+  color: white !important;
+}
+
+.card-title {
+  margin-bottom: 1.5em !important;
+}
+
+.check-button {
+  width: 100%;
+}
+
+.check-card {
+  box-shadow: 0 0 20px -12px #000;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+  padding: 2em;
+}

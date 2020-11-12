@@ -1,0 +1,4 @@
+{
+  "mongoUri": "mongodb+srv://admin:admin@cluster0.bg4q6.mongodb.net/crypto-checker?retryWrites=true&w=majority",
+  "jwtSecret": "Crypto-Checker_Secret_Token"
+}

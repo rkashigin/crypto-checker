@@ -1,0 +1,33 @@
+{
+  "name": "crypto-checker",
+  "version": "1.0.0",
+  "description": "A custom crypto exchange rate",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node app.js",
+    "heroku-postbuild": "cd frontend && npm install && npm run build",
+    "server": "node app.js",
+    "dev-server": "nodemon app.js",
+    "frontend": "npm run start --prefix frontend",
+    "frontend:install": "npm install --prefix frontend",
+    "frontend:build": "npm run build --prefix frontend",
+    "dev": "cross-env NOVE_ENV=development concurrently \"npm run dev-server\" \"npm run frontend\""
+  },
+  "author": "Roman Kashigin <r.kashigin@yandex.ru>",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "cross-env": "^7.0.2",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.13",
+    "shortid": "^2.2.16"
+  }
+}
