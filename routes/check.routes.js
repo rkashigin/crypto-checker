@@ -15,7 +15,7 @@ router.post("/", auth, async (req, res) => {
     const check = new Check({
       pair: req.body.pair,
       interval: req.body.interval,
-      price: data[5],
+      price: data[4],
       owner: req.body.owner,
     });
 
