@@ -105,10 +105,7 @@ router.post(
         {
           code: user.code,
         },
-        config.get("jwtSecret"),
-        {
-          expiresIn: "1h",
-        }
+        config.get("jwtSecret")
       );
 
       res.json({
