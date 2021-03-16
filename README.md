@@ -1,4 +1,4 @@
-# Crypto-Checkee ([Demo](https://crypto--checker.herokuapp.com))
+# Crypto-Checker ([Demo](https://crypto--checker.herokuapp.com))
 _Project purpose: learn how to use JWT authorizarion, create custom hooks and using third paries APIs_
 
 ## Functionality
